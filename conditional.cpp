@@ -21,15 +21,24 @@ using namespace std;
 
 // Part 2
 // Write a program that asks the user to enter a number between 2 and 100 and then prints out whether the number is prime or not. 
-// (Hint: numbers under a hundred that aren’t prime have 2, 3, 5, 7 or 11 as a factor.)
-int main() {
+/* int main() {
     int number;
 
     cout << "Enter a number between 2 and 100: ";
     cin >> number;
 
-    if (number % 2 != 0 || number % 3 != 0 || number % 5 != 0 || number % 7 != 0 || number % 11 != 0)
+    if (number % 2 == 0 && number != 2)
+        cout << "Your number is not prime." << endl;
+    else if (number % 3 == 0 && number != 3)
+        cout << "Your number is not prime." << endl;
+    else if (number % 5 == 0 && number != 5)
+        cout << "Your number is not prime." << endl;
+    else if (number % 7 == 0 && number != 7)
+        cout << "Your number is not prime." << endl;
+    else if (number % 11 == 0 && number != 11)
         cout << "Your number is not prime." << endl;
     else
         cout << "Your number is prime." << endl;
-}
+} */
+
+// Part 3
