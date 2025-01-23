@@ -18,10 +18,12 @@ int main() {
     cout << "I've picked a random number from 1 to 100, try to guess it." << endl;
 
     while (!correct) {
+        // user input, increment guesses counter
         cout << "Enter your guess: ";
         cin >> guess;
         tries++;
 
+        // guess comparison
         if (guess > number)
             cout << "Too high" << endl;
         else if (guess < number)
