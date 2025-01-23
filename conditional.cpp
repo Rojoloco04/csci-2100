@@ -64,3 +64,39 @@ Other*/
 } */
 
 // Part 4
+// Write a program that asks the user to enter a monetary amount in cents. 
+// The program should print out how many quarters, dimes, nickles and pennies are needed to make that amount. 
+// Further, when it prints things out it should make grammatical sense and not say things line “1 nickels”.
+/* int main() {
+    int money;
+    int quarters, dimes, nickles, pennies;
+
+    cout << "Enter your monetary amount in cents: ";
+    cin >> money;
+
+    quarters = money / 25;
+    money = money - quarters *25;
+    dimes = money / 10;
+    money = money - dimes * 10;
+    nickles = money / 5;
+    money = money - nickles * 5;
+    pennies = money;
+
+    cout << "Your amount can be made with: " << endl;
+    if (quarters == 1)
+        cout << "1 quarter" << endl;
+    else
+        cout << quarters << " quarters" << endl;
+    if (dimes == 1)
+        cout << "1 dime" << endl;
+    else
+        cout << dimes << " dimes" << endl;
+    if (nickles == 1)
+        cout << "1 nickle" << endl;
+    else
+        cout << nickles << " nickles" << endl;
+    if (pennies == 1)
+        cout << "1 penny" << endl;
+    else
+        cout << pennies << " pennies" << endl;
+} */
