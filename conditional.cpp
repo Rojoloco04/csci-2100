@@ -42,3 +42,25 @@ using namespace std;
 } */
 
 // Part 3
+/*Write a program that asks the user to enter a single character and prints out whether it is one of the following:
+Uppercase letter
+Lowercase letter
+Number
+Other*/
+/* int main() {
+    char character;
+
+    cout << "Enter your desired character: ";
+    cin >> character;
+
+    if (character >= 0x30 && character <= 0x39)
+        cout << "Your character is a number." << endl;
+    else if (character >= 0x41 && character <= 0x5A)
+        cout << "Your character is a capital letter." << endl;
+    else if (character >= 0x61 && character <= 0x7A)
+        cout << "Your character is a lowercase letter." << endl;
+    else
+        cout << "Your character is not a letter or number." << endl;
+} */
+
+// Part 4
